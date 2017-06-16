@@ -11,9 +11,15 @@ router.get('/mentorjoin', function(req, res, next) {
   res.render('mentorjoin', { title: 'Express' });
 });
 
+
 /* GET home page. */
 router.get('/menteejoin', function(req, res, next) {
   res.render('menteejoin', { title: 'Express' });
+});
+
+/* GET home page. */
+router.get('/userhome', function(req, res, next) {
+  res.render('userhome', { title: 'Express' });
 });
 
 module.exports = router;
