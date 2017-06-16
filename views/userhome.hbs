@@ -13,18 +13,14 @@
 
 	                    <div class="avatar">
 	                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle">
-	                    </div>
-	                    <h4>Anna Deynah</h4>
-	                    
+	                    </div>	                    
 	                    <hr>
 
                          <div class="list-group">
-                            <a href="#" class="list-group-item active">Account</a>
-                            <a href="#" class="list-group-item">Messages</a>
-                            <a href="#" class="list-group-item">Calander</a>
-                            <a href="#" class="list-group-item">Mentors</a>
-                            <a href="#" class="list-group-item">Mentees</a>
-
+                            <a href="/userhome" class="list-group-item active">Account</a>
+                            <a href="/userpreference" class="list-group-item">Preference</a>
+                            <a href="/usermentors" class="list-group-item">Mentors</a>
+                            <a href="/usermentees" class="list-group-item">Mentees</a>
                         </div>
                     </div>
 
@@ -34,7 +30,52 @@
                 <!--Main column-->
                 <div class="col-lg-8 card">
 
-                <h1>User Home</h1>
+                
+
+					<!--Naked Form-->
+					<div class="card-block">
+
+
+					    <!--Header-->
+					    <div class="text-center">
+					        <h3>Account</h3>
+					        <hr>
+					    </div>
+
+					    <br>
+
+					    <!--Body-->
+					    <div class="md-form">
+					        <input type="text" id="form2" disabled class="form-control" value="email@ebay.com">
+					        <label for="form2">Email</label>
+					    </div>
+
+					    <div class="md-form">					        
+					        <input type="text" id="form4" class="form-control" value="Margaret Hamilton">
+					        <label for="form4">Name</label>
+					    </div>
+
+					    <div class="md-form">					        
+					        <input type="text" id="form4" class="form-control" value="San Jose - South">
+					        <label for="form4">Location</label>
+					    </div>
+
+					    <div class="md-form">					        
+					        <input type="text" id="form4" class="form-control" value="Software Engineer">
+					        <label for="form4">Designation</label>
+					    </div>
+
+						<div class="md-form">
+						    <textarea type="text" id="form7" class="md-textarea">Am an awesome engineer. Looking for a Mentor</textarea>
+						    <label for="form7">Bio</label>
+						</div>
+
+					    <div class="text-center">
+					        <button class="btn btn-deep-purple">Update</button>
+					    </div>
+
+					</div>
+
 
                 </div>
                 <!--/.Main column-->
@@ -43,6 +84,6 @@
         </div>
         <!--/.Main layout-->
 
-    </main>
+ 
 
 
